@@ -12,7 +12,6 @@
  
  Elasticsearch también tiene la capacidad de no tener esquemas, por lo que los documentos se pueden indexar sin especificar explícitamente cómo manejar cada uno de los diferentes campos que pueden aparecer en un documento gracias al mapeo dinámico.
  
-
 # Salida de información: Buscar y analizar
  Gracias a Elasticsearch, además de almacenar y recuperar documentos, se puede acceder a todas las capacidades de búsqueda integradas en la biblioteca del motor de búsqueda Apache Lucene. Con la API REST se puede administrar el clúster e indexar y buscar los datos.
 
@@ -23,7 +22,6 @@
  Las agregaciones de Elasticsearch le permiten crear resúmenes complejos de sus datos y obtener información sobre métricas, patrones y tendencias importantes. Permite responder preguntas más específicas y sútiles que aporten más información a lo que se está buscando. Las agregaciones son muy rápidas, ya que también utilizan las mismas estructuras de datos que la búsqueda, lo que permite ver y analizar datos en tiempo real.
 
  Además, también funcionan con las solicitudes de búsqueda, por lo que se puede buscar documentos, filtrar información y realizar un análisis de los datos al mismo tiempo en una misma solicitud.
-
 
 # Escabilidad y Resiliencia
  En Elasticsearch se pueden añadir servidores (nodos) en un clúster para aumentar la capacidad y también distribuye de forma automática la carga de datos y consultas en los nodos disponibles. Elasticsearch balancea los clústeres que tienen varios nodos.
