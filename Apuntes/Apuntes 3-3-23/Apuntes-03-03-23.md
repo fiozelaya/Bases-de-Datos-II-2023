@@ -67,7 +67,7 @@ Un sistema computaciones tiene muchísimos componentes. Por ejemplo: Elasticsear
 La observabilidad ve como un todo el sistema computacional. Por ejemplo, si se observa un uso de CPU, el objetivo es que se pueda correlacionar en tiempo real por qué el CPU está alto con respecto al resto de componentes del sistema. De esta forma sea posible identificar problemas de una manera más eficiente y solucionarlos.
 
 La observabilidad se puede juntar con la elasticidad para la toma de decisiones en tiempo real en la base de datos, mediante el monitoreo completo. 
-> Elasticidad: Permite que el sistema computacional crezca o reduzca su tamaño en tiempo real.
+> Elasticidad: Permite que el sistema computacional aumente o reduzca su tamaño en tiempo real.
 
 Es importante recalcar que un sistema computacional está conformado por múltiples bases de datos y múltiples capas de desarrollo de software que tienen las compañías. En sistemas tan grandes y con tantos componentes lo que se necesita es un sistema que monitoree de forma inteligente.
 
